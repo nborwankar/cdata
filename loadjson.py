@@ -1,6 +1,10 @@
-# crude  - doesn't catch exceptions
-# basically I just ran these commands one by one inside ipython
-# and later created this script from them
+#! /usr/bin/env python
+
+""" Script to load json
+ crude  - doesn't catch exceptions
+ basically I just ran these commands one by one inside ipython
+ and later created this script from them
+"""
 
 import couchdb
 import simplejson
