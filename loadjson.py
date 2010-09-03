@@ -3,9 +3,13 @@
 
 
 import couchdb
+import simplejson
 
-json1k = open('ol1k.json').readlines()
-json100k = open('ol100k.json').readlines()
+str1k = open('ol1k.json').read()
+str100k = open('ol100k.json').read()
+
+json1k = simplejson.loads(str1k)
+json100k = simplejson.loads(str100k)
 
 server = couchdb.Server('http://localhost:5984/')
 db1k = server.create('ol1k')

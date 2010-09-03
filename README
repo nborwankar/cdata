@@ -24,7 +24,7 @@ My hope is that this collection of datasets and tools will fulfill a similar "we
 How
 ---
 
-I've taken the <a href="http://openlibrary.org> Open Library </a> data sets doen some minor cleanup and sliced them into samples of 1K and 100K JSON objects.
+I've taken the  Open Library (http://openlibrary.org) data sets, done some minor cleanup and sliced them into samples of 1K and 100K JSON objects.
 Each file is a concatenation of JSON objects but not a proper serialised JSON object as a whole.   So you'll need to do some minor parsing to pull the individual JSON objects into
 CouchDB.
 
