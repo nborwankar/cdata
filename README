@@ -26,7 +26,7 @@ How
 
 I've taken the  Open Library (http://openlibrary.org) data sets, done some minor cleanup and sliced them into samples of 1K and 100K JSON objects.
 Each file is a concatenation of JSON objects but not a proper serialised JSON object as a whole.   So you'll need to do some minor parsing to pull the individual JSON objects into
-CouchDB.  There is a python script 
+CouchDB.  There is a crude python script to load the data - I have not used bulk load - please change if it is taking too long for you on the 100K data set.
 
 
 Now what
