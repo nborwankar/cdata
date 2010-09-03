@@ -39,7 +39,9 @@ Now what
 --------
 
 I am going to use these data sets when creating sample CouchApps of any kind and also for creating Sproingg test
-messages (see http://nborwankar.github.com/sproingg).  More data sets from OpenLibrary and other sources will turn up here.  If you have data sets to contribute please send a pull request or contact me at nitin at couch dot io.
+messages (see http://nborwankar.github.com/sproingg).  More data sets from OpenLibrary and other sources will turn up
+ here.  If you have data sets to contribute please send a pull request or contact me at nitin at couch dot io.
+
 The two data sets have also been uploaded to cdata.couchone.com, please feel free to replicate from databases ol1k and
  ol100k respectively.
 
