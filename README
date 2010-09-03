@@ -7,7 +7,7 @@ What
 A collection of JSON datasets for various CouchDB dev purposes
 
 ol1k.json 1000 JSON records from Open Library Authors (approx 327K in size)
-ol1k.json 100,000 JSON records from Open Library Authors (approx 32M in size)
+ol100k.json 100,000 JSON records from Open Library Authors (approx 32M in size)
 
 Why
 ---
@@ -26,7 +26,7 @@ How
 
 I've taken the  Open Library (http://openlibrary.org) data sets, done some minor cleanup and sliced them into samples of 1K and 100K JSON objects.
 Each file is a concatenation of JSON objects but not a proper serialised JSON object as a whole.   So you'll need to do some minor parsing to pull the individual JSON objects into
-CouchDB.
+CouchDB.  There is a python script 
 
 
 Now what
