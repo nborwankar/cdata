@@ -6,6 +6,9 @@ What
 
 A collection of JSON datasets for various CouchDB dev purposes
 
+ol1k.json 1000 JSON records from Open Library Authors (approx 327K in size)
+ol1k.json 100,000 JSON records from Open Library Authors (approx 32M in size)
+
 Why
 ---
 I've long felt the need for a set of standard databases that everyone could use for various development purposes such as
@@ -31,4 +34,4 @@ Now what
 
 I am going to use these data sets when creating sample CouchApps of any kind and also for creating Sproingg test messages (see http://nborwankar.github.com/sproingg).
 More data sets from OpenLibrary and other sources will turn up here.
-If you have data sets to contribute please contact me at nitin at couch dot io.
+If you have data sets to contribute please send a pull request or contact me at nitin at couch dot io.
