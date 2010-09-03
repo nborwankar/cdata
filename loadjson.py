@@ -1,6 +1,6 @@
-# very crude script - doesn't even catch exceptions
+# crude  - doesn't catch exceptions
 # basically I just ran these commands one by one inside ipython
-
+# and later created this script from them
 
 import couchdb
 import simplejson
