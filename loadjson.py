@@ -1,5 +1,6 @@
-# very crude script doesn't even catch exceptions
+# very crude script - doesn't even catch exceptions
 # basically I just ran these commands one by one inside ipython
+
 
 import couchdb
 
