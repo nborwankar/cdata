@@ -30,18 +30,17 @@ How
 
 I've taken the  Open Library (http://openlibrary.org) data sets, done some minor cleanup and sliced them into samples of
  1K and 100K JSON objects.
-Each file is a concatenation of JSON objects but not a proper serialised JSON object as a whole.   So you'll need to do
- some minor parsing to pull the individual JSON objects into CouchDB.  There is a crude python script to load the data
- - I have not used bulk load - please change if it is taking too long for you on the 100K data set.
+Each file is a serialised JSON array of JSON objects.   So you'll need to do some minor parsing to pull the individual
+JSON objects into CouchDB.  There is a crude python script to load the data  - I have not used bulk load - 
+please change if it is taking too long for you on the 100K data set.
 
 
 Now what
 --------
 
 I am going to use these data sets when creating sample CouchApps of any kind and also for creating Sproingg test
- messages (see http://nborwankar.github.com/sproingg).
-More data sets from OpenLibrary and other sources will turn up here.
-If you have data sets to contribute please send a pull request or contact me at nitin at couch dot io.
-The two data sets have also been uploaded to cdata.couchone.com, please feel free to replicate from databases ol1k and ol100k respectively.
+messages (see http://nborwankar.github.com/sproingg).  More data sets from OpenLibrary and other sources will turn up here.  If you have data sets to contribute please send a pull request or contact me at nitin at couch dot io.
+The two data sets have also been uploaded to cdata.couchone.com, please feel free to replicate from databases ol1k and
+ ol100k respectively.
 
 Be warned that the data in couchdb is approx 500K and 50M resp. 
